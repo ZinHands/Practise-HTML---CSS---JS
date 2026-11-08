@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerTitle {
+    background-color: #26d;
+    font-size: 1.6em;
+    font-family: "Google Sans Flex", sans-serif;
+    padding: 15px 30px;
+    color: #fff;
+    border-bottom: 1px solid #5df;
+}
+
+#register {
+    width: 70%;
+    margin: 25px auto;
+}
+
+.registerTitle {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.3em;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+#registerForm {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+}
+
+#input1, #input2, #input3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    align-items: center;
+}
+
+label {
+    margin: 0;
+    width: 70%;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #26d;
+    text-align: left;
+}
+
+input {
+    margin: 5px 0;
+    padding: 6px 4px;
+    width: 70%;
+    font-size: 0.85em;
+    font-family: "Arimo", sans-serif;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+button {
+    width: 50%;
+    padding: 5px 0;
+    margin: 20px auto;
+    background-color: #26d;
+    border: 1px solid #000;
+    border-radius: 3px;
+    color: #fff;
+}
+
+#buy {
+    width: 100%;
+    background-color: #26d;
+}
+
+.buyTitle {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+
+#buyForm {
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#buyForm label {
+    color: #fff;
+}
+
+#buyForm button {
+    background-color: #fff;
+    color: #000;
+    width: 15%;
+}
+
+#buyForm label, #buyForm button {
+    margin: 10px;
+}
+
+#result {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 40px auto;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #26d;
+}
+
+#result #payAmount {
+    width: 10%;
+    padding: 2px;
+    text-align: center;
+    font-size: 1em;
+}
+
+#result button {
+    margin: 10px auto;
+    width: 15%;
+}

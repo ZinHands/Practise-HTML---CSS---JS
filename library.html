@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="library.css">
+    <link rel="icon" href="https://static.nationalgeographicla.com/files/styles/image_3200/public/001-library-biblioteca-real-gabinete-de-leitura-rio-de-janeiro-brasile_0016.webp?w=1190&h=893">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@1..144,1..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Virtual Library</title>
+</head>
+<body>
+    <div id="container">
+        <h1 class="containerTitle">BIBLIOTECA VIRTUAL</h1>
+        <div id="containerForm">
+            <form id="form">
+                <label for="book" id="bookLabel">Libro</label>
+                <input type="text" id="book" required>
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+        <div id="findBook">
+            <form id="formBook">
+                <label for="find" id="findLabel">Búsqueda</label>
+                <input type="text" id="find" required>
+                <button type="submit">Buscar</button>
+            </form>
+            <div id="result"></div>
+            <div id="lend"></div>
+        </div>
+    </div>
+    <script src="library.js"></script>
+</body>
+</html> 
